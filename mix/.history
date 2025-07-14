@@ -1,1 +1,385 @@
 date,id,ccmode,lbmode,cwh_tx_expiry_time,cwh_extra_reply_deadline,cwh_path_pause_time,cwh_extra_voq_flush_time,cwh_default_voq_waiting_time,pfc,irn,has_win,var_win,topo,bw,cdf,load,time
+07/13/25,865831774,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/865831774/config.txt' > /home/soybean/all_projects/ns3/mix/output/865831774/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/865831774/config.txt'
+
+07/13/25,331475275,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/331475275/config.txt' > /home/soybean/all_projects/ns3/mix/output/331475275/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/331475275/config.txt'
+
+07/13/25,794067410,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/794067410/config.txt' > /home/soybean/all_projects/ns3/mix/output/794067410/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/794067410/config.txt'
+
+07/13/25,952186739,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/952186739/config.txt' > /home/soybean/all_projects/ns3/mix/output/952186739/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/952186739/config.txt'
+
+07/13/25,450839262,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/450839262/config.txt' > /home/soybean/all_projects/ns3/mix/output/450839262/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/450839262/config.txt'
+
+07/13/25,135648663,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/135648663/config.txt' > /home/soybean/all_projects/ns3/mix/output/135648663/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/135648663/config.txt'
+
+07/13/25,721476560,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/721476560/config.txt' > /home/soybean/all_projects/ns3/mix/output/721476560/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/721476560/config.txt'
+
+07/13/25,711124112,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/711124112/config.txt' > /home/soybean/all_projects/ns3/mix/output/711124112/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/711124112/config.txt'
+
+07/13/25,48536381,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/48536381/config.txt' > /home/soybean/all_projects/ns3/mix/output/48536381/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/48536381/config.txt'
+
+07/13/25,848179858,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/848179858/config.txt' > /home/soybean/all_projects/ns3/mix/output/848179858/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/848179858/config.txt'
+
+07/13/25,812327278,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/812327278/config.txt' > /home/soybean/all_projects/ns3/mix/output/812327278/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/812327278/config.txt'
+
+07/13/25,286309910,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/286309910/config.txt' > /home/soybean/all_projects/ns3/mix/output/286309910/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/286309910/config.txt'
+
+07/13/25,600842682,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/600842682/config.txt' > /home/soybean/all_projects/ns3/mix/output/600842682/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/600842682/config.txt'
+
+07/13/25,631328409,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/631328409/config.txt' > /home/soybean/all_projects/ns3/mix/output/631328409/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/631328409/config.txt'
+
+07/13/25,682543280,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/682543280/config.txt' > /home/soybean/all_projects/ns3/mix/output/682543280/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/682543280/config.txt'
+
+07/13/25,926619026,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/926619026/config.txt' > /home/soybean/all_projects/ns3/mix/output/926619026/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/926619026/config.txt'
+
+07/13/25,200832639,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/200832639/config.txt' > /home/soybean/all_projects/ns3/mix/output/200832639/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/200832639/config.txt'
+
+07/13/25,177761993,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/177761993/config.txt' > /home/soybean/all_projects/ns3/mix/output/177761993/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/177761993/config.txt'
+
+07/13/25,359852415,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/359852415/config.txt' > /home/soybean/all_projects/ns3/mix/output/359852415/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/359852415/config.txt'
+
+07/13/25,647187970,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/647187970/config.txt' > /home/soybean/all_projects/ns3/mix/output/647187970/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/647187970/config.txt'
+
+07/13/25,59450795,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/59450795/config.txt' > /home/soybean/all_projects/ns3/mix/output/59450795/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/59450795/config.txt'
+
+07/13/25,751349984,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/751349984/config.txt' > /home/soybean/all_projects/ns3/mix/output/751349984/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/751349984/config.txt'
+
+07/13/25,91644826,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/91644826/config.txt' > /home/soybean/all_projects/ns3/mix/output/91644826/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/91644826/config.txt'
+
+07/13/25,691483748,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/691483748/config.txt' > /home/soybean/all_projects/ns3/mix/output/691483748/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/691483748/config.txt'
+
+07/13/25,382659912,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/382659912/config.txt' > /home/soybean/all_projects/ns3/mix/output/382659912/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/382659912/config.txt'
+
+07/13/25,338231124,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/338231124/config.txt' > /home/soybean/all_projects/ns3/mix/output/338231124/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/338231124/config.txt'
+
+07/13/25,688244701,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/688244701/config.txt' > /home/soybean/all_projects/ns3/mix/output/688244701/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/688244701/config.txt'
+
+07/13/25,813162900,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/813162900/config.txt' > /home/soybean/all_projects/ns3/mix/output/813162900/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/813162900/config.txt'
+
+07/13/25,83144802,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/83144802/config.txt' > /home/soybean/all_projects/ns3/mix/output/83144802/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/83144802/config.txt'
+
+07/13/25,902715355,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/902715355/config.txt' > /home/soybean/all_projects/ns3/mix/output/902715355/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/902715355/config.txt'
+
+07/13/25,150497712,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/150497712/config.txt' > /home/soybean/all_projects/ns3/mix/output/150497712/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/150497712/config.txt'
+
+07/13/25,201328194,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/201328194/config.txt' > /home/soybean/all_projects/ns3/mix/output/201328194/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/201328194/config.txt'
+
+07/13/25,885376067,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/885376067/config.txt' > /home/soybean/all_projects/ns3/mix/output/885376067/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/885376067/config.txt'
+
+07/13/25,371733435,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/371733435/config.txt' > /home/soybean/all_projects/ns3/mix/output/371733435/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/371733435/config.txt'
+
+07/13/25,209354050,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/209354050/config.txt' > /home/soybean/all_projects/ns3/mix/output/209354050/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/209354050/config.txt'
+
+07/13/25,599581953,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/599581953/config.txt' > /home/soybean/all_projects/ns3/mix/output/599581953/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/599581953/config.txt'
+
+07/13/25,449995477,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/449995477/config.txt' > /home/soybean/all_projects/ns3/mix/output/449995477/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/449995477/config.txt'
+
+07/13/25,852222379,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/852222379/config.txt' > /home/soybean/all_projects/ns3/mix/output/852222379/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/852222379/config.txt'
+
+07/13/25,900007448,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/900007448/config.txt' > /home/soybean/all_projects/ns3/mix/output/900007448/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/900007448/config.txt'
+
+07/13/25,802046093,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/802046093/config.txt' > /home/soybean/all_projects/ns3/mix/output/802046093/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/802046093/config.txt'
+
+07/13/25,212322379,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/212322379/config.txt' > /home/soybean/all_projects/ns3/mix/output/212322379/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/212322379/config.txt'
+
+07/13/25,3249251,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/3249251/config.txt' > /home/soybean/all_projects/ns3/mix/output/3249251/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/3249251/config.txt'
+
+07/13/25,162467941,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/162467941/config.txt' > /home/soybean/all_projects/ns3/mix/output/162467941/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/162467941/config.txt'
+
+07/13/25,217974686,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/217974686/config.txt' > /home/soybean/all_projects/ns3/mix/output/217974686/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/217974686/config.txt'
+
+07/13/25,537280420,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/537280420/config.txt' > /home/soybean/all_projects/ns3/mix/output/537280420/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/537280420/config.txt'
+
+07/13/25,338162107,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/338162107/config.txt' > /home/soybean/all_projects/ns3/mix/output/338162107/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/338162107/config.txt'
+
+07/13/25,573358526,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/573358526/config.txt' > /home/soybean/all_projects/ns3/mix/output/573358526/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/573358526/config.txt'
+
+07/13/25,744252819,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/744252819/config.txt' > /home/soybean/all_projects/ns3/mix/output/744252819/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/744252819/config.txt'
+
+07/13/25,608492448,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/608492448/config.txt' > /home/soybean/all_projects/ns3/mix/output/608492448/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/608492448/config.txt'
+
+07/13/25,531068781,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/531068781/config.txt' > /home/soybean/all_projects/ns3/mix/output/531068781/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/531068781/config.txt'
+
+07/13/25,962533686,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/962533686/config.txt' > /home/soybean/all_projects/ns3/mix/output/962533686/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/962533686/config.txt'
+
+07/13/25,299030591,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/299030591/config.txt' > /home/soybean/all_projects/ns3/mix/output/299030591/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/299030591/config.txt'
+
+07/13/25,484985928,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/484985928/config.txt' > /home/soybean/all_projects/ns3/mix/output/484985928/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/484985928/config.txt'
+
+07/13/25,985323885,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/985323885/config.txt' > /home/soybean/all_projects/ns3/mix/output/985323885/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/985323885/config.txt'
+
+07/13/25,104436257,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/104436257/config.txt' > /home/soybean/all_projects/ns3/mix/output/104436257/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/104436257/config.txt'
+
+07/13/25,119651367,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/119651367/config.txt' > /home/soybean/all_projects/ns3/mix/output/119651367/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/119651367/config.txt'
+
+07/13/25,768453169,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/768453169/config.txt' > /home/soybean/all_projects/ns3/mix/output/768453169/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/768453169/config.txt'
+
+07/13/25,264707499,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/264707499/config.txt' > /home/soybean/all_projects/ns3/mix/output/264707499/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/264707499/config.txt'
+
+07/13/25,833556352,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/833556352/config.txt' > /home/soybean/all_projects/ns3/mix/output/833556352/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/833556352/config.txt'
+
+07/13/25,53462268,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/53462268/config.txt' > /home/soybean/all_projects/ns3/mix/output/53462268/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/53462268/config.txt'
+
+07/13/25,93543251,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/93543251/config.txt' > /home/soybean/all_projects/ns3/mix/output/93543251/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/93543251/config.txt'
+
+07/13/25,514396406,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/514396406/config.txt' > /home/soybean/all_projects/ns3/mix/output/514396406/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/514396406/config.txt'
+
+07/13/25,398064173,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/398064173/config.txt' > /home/soybean/all_projects/ns3/mix/output/398064173/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/398064173/config.txt'
+
+07/13/25,639589394,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/639589394/config.txt' > /home/soybean/all_projects/ns3/mix/output/639589394/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/639589394/config.txt'
+
+07/13/25,177238335,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/177238335/config.txt' > /home/soybean/all_projects/ns3/mix/output/177238335/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/177238335/config.txt'
+
+07/13/25,415228422,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/415228422/config.txt' > /home/soybean/all_projects/ns3/mix/output/415228422/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/415228422/config.txt'
+
+07/13/25,655718444,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/655718444/config.txt' > /home/soybean/all_projects/ns3/mix/output/655718444/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/655718444/config.txt'
+
+07/13/25,861604918,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/861604918/config.txt' > /home/soybean/all_projects/ns3/mix/output/861604918/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/861604918/config.txt'
+
+07/13/25,777865002,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/777865002/config.txt' > /home/soybean/all_projects/ns3/mix/output/777865002/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/777865002/config.txt'
+
+07/13/25,26003003,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/26003003/config.txt' > /home/soybean/all_projects/ns3/mix/output/26003003/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/26003003/config.txt'
+
+07/13/25,308381728,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/308381728/config.txt' > /home/soybean/all_projects/ns3/mix/output/308381728/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/308381728/config.txt'
+
+07/13/25,79470621,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/79470621/config.txt' > /home/soybean/all_projects/ns3/mix/output/79470621/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/79470621/config.txt'
+
+07/13/25,643046961,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/643046961/config.txt' > /home/soybean/all_projects/ns3/mix/output/643046961/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/643046961/config.txt'
+
+07/13/25,8949206,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/8949206/config.txt' > /home/soybean/all_projects/ns3/mix/output/8949206/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/8949206/config.txt'
+
+07/13/25,292897297,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/292897297/config.txt' > /home/soybean/all_projects/ns3/mix/output/292897297/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/292897297/config.txt'
+
+07/13/25,709951553,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/709951553/config.txt' > /home/soybean/all_projects/ns3/mix/output/709951553/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/709951553/config.txt'
+
+07/13/25,442150644,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/442150644/config.txt' > /home/soybean/all_projects/ns3/mix/output/442150644/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/442150644/config.txt'
+
+07/13/25,259997768,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/259997768/config.txt' > /home/soybean/all_projects/ns3/mix/output/259997768/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/259997768/config.txt'
+
+07/13/25,273655916,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/273655916/config.txt' > /home/soybean/all_projects/ns3/mix/output/273655916/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/273655916/config.txt'
+
+07/13/25,901728100,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/901728100/config.txt' > /home/soybean/all_projects/ns3/mix/output/901728100/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/901728100/config.txt'
+
+07/13/25,545856003,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/545856003/config.txt' > /home/soybean/all_projects/ns3/mix/output/545856003/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/545856003/config.txt'
+
+07/13/25,483891124,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/483891124/config.txt' > /home/soybean/all_projects/ns3/mix/output/483891124/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/483891124/config.txt'
+
+07/13/25,7880379,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/7880379/config.txt' > /home/soybean/all_projects/ns3/mix/output/7880379/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/7880379/config.txt'
+
+07/13/25,737899969,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/737899969/config.txt' > /home/soybean/all_projects/ns3/mix/output/737899969/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/737899969/config.txt'
+
+07/13/25,648596344,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/648596344/config.txt' > /home/soybean/all_projects/ns3/mix/output/648596344/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/648596344/config.txt'
+
+07/13/25,445601836,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/445601836/config.txt' > /home/soybean/all_projects/ns3/mix/output/445601836/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/445601836/config.txt'
+
+07/13/25,439023366,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/439023366/config.txt' > /home/soybean/all_projects/ns3/mix/output/439023366/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/439023366/config.txt'
+
+07/13/25,398789588,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/398789588/config.txt' > /home/soybean/all_projects/ns3/mix/output/398789588/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/398789588/config.txt'
+
+07/13/25,604773187,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/604773187/config.txt' > /home/soybean/all_projects/ns3/mix/output/604773187/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/604773187/config.txt'
+
+07/13/25,274994326,1,6,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/274994326/config.txt' > /home/soybean/all_projects/ns3/mix/output/274994326/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/274994326/config.txt'
+
+07/13/25,362096154,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/362096154/config.txt' > /home/soybean/all_projects/ns3/mix/output/362096154/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/362096154/config.txt'
+
+07/13/25,321197962,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/321197962/config.txt' > /home/soybean/all_projects/ns3/mix/output/321197962/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/321197962/config.txt'
+
+07/13/25,147234299,1,0,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/147234299/config.txt' > /home/soybean/all_projects/ns3/mix/output/147234299/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/147234299/config.txt'
+
+07/13/25,778316731,1,6,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/778316731/config.txt' > /home/soybean/all_projects/ns3/mix/output/778316731/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/778316731/config.txt'
+
+07/13/25,962979429,1,3,1000,4,16,64,400,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/962979429/config.txt' > /home/soybean/all_projects/ns3/mix/output/962979429/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/962979429/config.txt'
+
+07/13/25,405595037,1,9,300,4,16,16,200,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,50,0.1
+./waf --run 'scratch/network-load-balance /home/soybean/all_projects/ns3/mix/output/405595037/config.txt' > /home/soybean/all_projects/ns3/mix/output/405595037/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/soybean/all_projects/ns3/mix/output/405595037/config.txt'
+
